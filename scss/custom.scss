@@ -1,8 +1,43 @@
 // Your variable overrides
 $body-bg: white;
 $body-color: black;
-$primary: hotpink;
+$primary: #c33632;
 $font-family-base: Arial;
+$jumbotron-padding: 0;
+$bg-light: white;
+
+header {
+  background-image: linear-gradient(70deg, white 80%, #c33632 20%);
+}
+
+.jumbotron {
+  background-image: linear-gradient(70deg, white 60%, #c33632 40%);
+  height: auto;
+}
+
+.li-connected {
+  padding: 10px;
+  list-style-type: none;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+hr {
+  max-width: 800px;
+  height: 5px;
+  margin: 0 auto;
+  color: red;
+  background: red;
+}
+
+.svg-center {
+  text-align: center;
+  padding-top: 20px;
+}
 
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
