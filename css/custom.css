@@ -4,7 +4,7 @@ header {
 }
 
 .jumbotron {
-  background-image: linear-gradient(70deg, white 60%, #c33632 40%);
+  background-image: linear-gradient(70deg, white 60%, #ae2520 40%);
   height: auto;
 }
 
@@ -30,6 +30,10 @@ hr {
 .svg-center {
   text-align: center;
   padding-top: 20px;
+}
+
+.connection-svg-padding {
+  padding: 2px;
 }
 
 /*!
