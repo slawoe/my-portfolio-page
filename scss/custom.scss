@@ -1,7 +1,7 @@
 // Your variable overrides
 $body-bg: white;
 $body-color: black;
-$primary: #ae2520;
+$primary: #ae2521;
 $font-family-base: Arial;
 $jumbotron-padding: 0;
 $link-hover-color: white;
@@ -41,6 +41,9 @@ hr {
   background: #ae2520;
 }
 
+.unique-color-span {
+  color: #ae2520;
+}
 .svg-center {
   text-align: center;
   padding-top: 20px;
@@ -66,6 +69,41 @@ hr {
 
 section {
   margin: 30px 0;
+}
+
+h1,
+h2 {
+  font-family: "Carter One", cursive;
+  padding: 5px 0;
+}
+
+.carter-one {
+  font-family: "Carter One", cursive;
+}
+
+.unique-border {
+  background-color: #ae2520;
+  color: #ae2520;
+  max-width: 320px;
+  height: 5px;
+  margin-bottom: 20px;
+}
+
+.font-amaranth {
+  font-family: "Amaranth", sans-serif;
+  font-size: 1.3rem;
+}
+
+.font-amaranth-cursive {
+  font-family: "Amaranth", sans-serif;
+  font-style: italic;
+}
+
+.img-padding {
+  padding: 50px 0;
+}
+.rounded-pic {
+  border-radius: 10px 25%;
 }
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
