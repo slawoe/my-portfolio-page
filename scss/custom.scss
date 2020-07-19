@@ -1,17 +1,20 @@
 // Your variable overrides
 $body-bg: white;
 $body-color: black;
-$primary: #c33632;
+$primary: #ae2520;
 $font-family-base: Arial;
 $jumbotron-padding: 0;
 $link-hover-color: white;
 $link-color: white;
 $link-hover-decoration: none;
 $carousel-indicator-active-bg: darkgrey;
-$carousel-control-color: red;
+$carousel-control-color: #ae2520;
+$link-color: #ae2520;
+$link-hover-color: black;
+$card-cap-bg: white;
 
 header {
-  background-image: linear-gradient(70deg, white 80%, #c33632 20%);
+  background-image: linear-gradient(70deg, white 80%, #ae2520 20%);
 }
 
 .jumbotron {
@@ -34,8 +37,8 @@ hr {
   max-width: 800px;
   height: 5px;
   margin: 0 auto;
-  color: red;
-  background: red;
+  color: #ae2520;
+  background: #ae2520;
 }
 
 .svg-center {
@@ -47,5 +50,18 @@ hr {
   padding: 2px;
 }
 
+.table-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.th-width {
+  width: 800px;
+}
+
+.badge {
+  text-align: left;
+}
 // Include all Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
